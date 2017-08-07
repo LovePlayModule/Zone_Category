@@ -1,8 +1,9 @@
-use_frameworks!
-
+source 'https://github.com/LovePlayModule/Podspec.git'
+source 'https://github.com/CocoaPods/Specs.git'
+#use_frameworks!
 target 'Zone_Category_Example' do
   pod 'Zone_Category', :path => '../'
-
+  pod 'Mediator'
   target 'Zone_Category_Tests' do
     inherit! :search_paths
 

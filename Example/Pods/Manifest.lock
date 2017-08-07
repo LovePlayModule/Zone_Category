@@ -1,0 +1,19 @@
+PODS:
+  - Mediator (0.1.0)
+  - Zone_Category (0.1.0)
+
+DEPENDENCIES:
+  - Mediator
+  - Zone_Category (from `../`)
+
+EXTERNAL SOURCES:
+  Zone_Category:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Mediator: 5b8aebadf067de253f3f81900b4bea0909373842
+  Zone_Category: 7016a91de519274e7ff61c3fa931571e7f4a8e8c
+
+PODFILE CHECKSUM: b931ae5fb61d3e2765a4bd6e90776c7062fdebfc
+
+COCOAPODS: 1.2.1
